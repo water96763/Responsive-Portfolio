@@ -293,3 +293,13 @@ form{
         width: 90%;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .headerwrapper1 {
+        position: static;
+    }
+
+    h2 {
+        margin-top: 3%;
+    }
+}
