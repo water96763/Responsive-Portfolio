@@ -302,4 +302,26 @@ form{
     h2 {
         margin-top: 3%;
     }
+     
+    body, .portfoliowrapper {
+        max-width: 600px;
+    } 
+    
+    .wrapper  {
+        max-width: 400px;     
+        padding: 5%;
+        margin-top: 5%;
+    }
+    
+    .name, .email, .message {
+        max-width: 90%;
+    }
+        
+    form {
+        width: 90%;
+    }
+    
+    .hangman, .rpg, .trivia, .rutgers, .rps {
+        width: 100%;
+    }
 }
