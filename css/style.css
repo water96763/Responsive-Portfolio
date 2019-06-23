@@ -221,49 +221,75 @@ form{
     clear: both;
 }
 
+@media screen and (min-width: 982) and (max-width: 1299) {
+    
+    .headerwrapper1 {
+        max-width: 980px;
+    }
+
+    .emptybox, .emptybox1, .emptybox2 {
+        width: 0%;   
+            }
+}
+
+
 @media screen and (max-width: 980px) {
     body {
-    background-color: lightgreen;}
-
+      background-color: lightgreen;
+    }
     .headerwrapper1 {
-        header: fixed;
+        position: fixed;
+        max-width: 980px;
     }
-    .about
-    .portfolio
-    .contact
-    .emptybox1
-    .emptybox2
-    .namebox
-    .emptybox {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none; 
+    .emptybox, .emptybox1, .emptybox2 {
+        width: 0%;   
+    }
+    
+    .indexwrapper {
+        width: 60%;
+        margin-left: 0%;
     }
 
-  }
+    h2 {
+        margin-top: 50px;
+    }
+    
+    .about, .portfolio, .contact {
+        float: right;
+    }
+    
+    .wrapper {
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 20px;
+    }
+
+    .name, .email, .message {
+      max-width: 90%;
+    }
+
+    form{
+    width: 90%;
+    }
+}
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 640px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-          /* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Style the topnav links */
-  .headerwrapper1 {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }  
+@media screen and (max-width: 768px) {
+ 
+    body {
+        max-width: 600px;
+    } 
+    
+    .wrapper  {
+        max-width: 600px;     
+        padding: 20px;
+        margin-top: 20px;
     }
+    
+    .name, .email, .message {
+        max-width: 90%;
     }
-  }
+        
+    form {
+        width: 90%;
+    }
+}
